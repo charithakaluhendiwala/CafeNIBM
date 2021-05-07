@@ -3,27 +3,53 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB05EB0226325E7C00BDAF17 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB05EB0126325E7C00BDAF17 /* FoodViewController.swift */; };
+		DB05EB062632819200BDAF17 /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB05EB042632819200BDAF17 /* FoodTableViewCell.swift */; };
+		DB05EB072632819200BDAF17 /* FoodTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB05EB052632819200BDAF17 /* FoodTableViewCell.xib */; };
+		DB062B1C262534FC000C1F53 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB062B1B262534FC000C1F53 /* GoogleService-Info.plist */; };
+		DB2B4B53263441C700CEE1C1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2B4B52263441C700CEE1C1 /* ProfileViewController.swift */; };
+		DB2B4B552634478700CEE1C1 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2B4B542634478700CEE1C1 /* LaunchViewController.swift */; };
+		DB2B4B57263462C500CEE1C1 /* FoodItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2B4B56263462C500CEE1C1 /* FoodItemViewController.swift */; };
+		DB380A4F262747F000D1C566 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB380A4E262747F000D1C566 /* SessionManager.swift */; };
 		DBBA6C142623ECDB0030541F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBA6C132623ECDB0030541F /* AppDelegate.swift */; };
 		DBBA6C162623ECDB0030541F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBA6C152623ECDB0030541F /* SceneDelegate.swift */; };
-		DBBA6C182623ECDB0030541F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBA6C172623ECDB0030541F /* ViewController.swift */; };
 		DBBA6C1B2623ECDB0030541F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBBA6C192623ECDB0030541F /* Main.storyboard */; };
 		DBBA6C1D2623ECE00030541F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBBA6C1C2623ECE00030541F /* Assets.xcassets */; };
 		DBBA6C202623ECE00030541F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBBA6C1E2623ECE00030541F /* LaunchScreen.storyboard */; };
+		DBE6F3662625A77500315AE3 /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE6F3652625A77500315AE3 /* SigninViewController.swift */; };
+		DBE6F3682625A82A00315AE3 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE6F3672625A82A00315AE3 /* SignUpViewController.swift */; };
+		DBEED809262552E30025594D /* EntityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEED808262552E30025594D /* EntityModel.swift */; };
+		DBF93AA42633D83C00915EC1 /* InputValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF93AA32633D83C00915EC1 /* InputValidator.swift */; };
+		FF7762E2A52E7BED30292FD7 /* Pods_CafeNIBM10421394.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A83F901818BB5B9033665E00 /* Pods_CafeNIBM10421394.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DBBA6C102623ECDB0030541F /* CafeNIBM10421394.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CafeNIBM10421394.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AFA3592CB804D62DD5AF4CF /* Pods-CafeNIBM10421394.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CafeNIBM10421394.debug.xcconfig"; path = "Target Support Files/Pods-CafeNIBM10421394/Pods-CafeNIBM10421394.debug.xcconfig"; sourceTree = "<group>"; };
+		A83F901818BB5B9033665E00 /* Pods_CafeNIBM10421394.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CafeNIBM10421394.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8C237CB7B8631E8CAA5FBEF /* Pods-CafeNIBM10421394.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CafeNIBM10421394.release.xcconfig"; path = "Target Support Files/Pods-CafeNIBM10421394/Pods-CafeNIBM10421394.release.xcconfig"; sourceTree = "<group>"; };
+		DB05EB0126325E7C00BDAF17 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		DB05EB042632819200BDAF17 /* FoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
+		DB05EB052632819200BDAF17 /* FoodTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodTableViewCell.xib; sourceTree = "<group>"; };
+		DB062B1B262534FC000C1F53 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DB2B4B52263441C700CEE1C1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		DB2B4B542634478700CEE1C1 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		DB2B4B56263462C500CEE1C1 /* FoodItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItemViewController.swift; sourceTree = "<group>"; };
+		DB380A4E262747F000D1C566 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		DBBA6C102623ECDB0030541F /* cafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBBA6C132623ECDB0030541F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBBA6C152623ECDB0030541F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DBBA6C172623ECDB0030541F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DBBA6C1A2623ECDB0030541F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DBBA6C1C2623ECE00030541F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBBA6C1F2623ECE00030541F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBBA6C212623ECE00030541F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBE6F3652625A77500315AE3 /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
+		DBE6F3672625A82A00315AE3 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		DBEED808262552E30025594D /* EntityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityModel.swift; sourceTree = "<group>"; };
+		DBF93AA32633D83C00915EC1 /* InputValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputValidator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,24 +57,84 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF7762E2A52E7BED30292FD7 /* Pods_CafeNIBM10421394.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3DD33EA4054F0A4CCDC3F8B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4AFA3592CB804D62DD5AF4CF /* Pods-CafeNIBM10421394.debug.xcconfig */,
+				C8C237CB7B8631E8CAA5FBEF /* Pods-CafeNIBM10421394.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DB05EB03263280BA00BDAF17 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		DB062B1E26253E28000C1F53 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DB05EB03263280BA00BDAF17 /* TableViewCells */,
+				DBBA6C192623ECDB0030541F /* Main.storyboard */,
+				DB05EB052632819200BDAF17 /* FoodTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DB062B1F26253E39000C1F53 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DBEED808262552E30025594D /* EntityModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DB062B2026253E47000C1F53 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DB05EB042632819200BDAF17 /* FoodTableViewCell.swift */,
+				DBE6F3652625A77500315AE3 /* SigninViewController.swift */,
+				DBE6F3672625A82A00315AE3 /* SignUpViewController.swift */,
+				DB05EB0126325E7C00BDAF17 /* FoodViewController.swift */,
+				DB2B4B52263441C700CEE1C1 /* ProfileViewController.swift */,
+				DB2B4B542634478700CEE1C1 /* LaunchViewController.swift */,
+				DB2B4B56263462C500CEE1C1 /* FoodItemViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DB380A4D2627463200D1C566 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DB380A4E262747F000D1C566 /* SessionManager.swift */,
+				DBF93AA32633D83C00915EC1 /* InputValidator.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		DBBA6C072623ECDB0030541F = {
 			isa = PBXGroup;
 			children = (
 				DBBA6C122623ECDB0030541F /* CafeNIBM10421394 */,
 				DBBA6C112623ECDB0030541F /* Products */,
+				3DD33EA4054F0A4CCDC3F8B4 /* Pods */,
+				E38A9A65EFF272982E1D1347 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		DBBA6C112623ECDB0030541F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DBBA6C102623ECDB0030541F /* CafeNIBM10421394.app */,
+				DBBA6C102623ECDB0030541F /* cafe.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +142,26 @@
 		DBBA6C122623ECDB0030541F /* CafeNIBM10421394 */ = {
 			isa = PBXGroup;
 			children = (
+				DB380A4D2627463200D1C566 /* Utilities */,
+				DB062B1F26253E39000C1F53 /* Model */,
+				DB062B1E26253E28000C1F53 /* View */,
+				DB062B2026253E47000C1F53 /* Controller */,
 				DBBA6C132623ECDB0030541F /* AppDelegate.swift */,
 				DBBA6C152623ECDB0030541F /* SceneDelegate.swift */,
-				DBBA6C172623ECDB0030541F /* ViewController.swift */,
-				DBBA6C192623ECDB0030541F /* Main.storyboard */,
 				DBBA6C1C2623ECE00030541F /* Assets.xcassets */,
 				DBBA6C1E2623ECE00030541F /* LaunchScreen.storyboard */,
 				DBBA6C212623ECE00030541F /* Info.plist */,
+				DB062B1B262534FC000C1F53 /* GoogleService-Info.plist */,
 			);
 			path = CafeNIBM10421394;
+			sourceTree = "<group>";
+		};
+		E38A9A65EFF272982E1D1347 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A83F901818BB5B9033665E00 /* Pods_CafeNIBM10421394.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +171,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBBA6C242623ECE00030541F /* Build configuration list for PBXNativeTarget "CafeNIBM10421394" */;
 			buildPhases = (
+				50F8B349CC18C8513BB42CA9 /* [CP] Check Pods Manifest.lock */,
 				DBBA6C0C2623ECDB0030541F /* Sources */,
 				DBBA6C0D2623ECDB0030541F /* Frameworks */,
 				DBBA6C0E2623ECDB0030541F /* Resources */,
+				7D15E8AFCD6E902C2CD33F7B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -84,7 +183,7 @@
 			);
 			name = CafeNIBM10421394;
 			productName = CafeNIBM10421394;
-			productReference = DBBA6C102623ECDB0030541F /* CafeNIBM10421394.app */;
+			productReference = DBBA6C102623ECDB0030541F /* cafe.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -127,20 +226,73 @@
 			files = (
 				DBBA6C202623ECE00030541F /* LaunchScreen.storyboard in Resources */,
 				DBBA6C1D2623ECE00030541F /* Assets.xcassets in Resources */,
+				DB05EB072632819200BDAF17 /* FoodTableViewCell.xib in Resources */,
+				DB062B1C262534FC000C1F53 /* GoogleService-Info.plist in Resources */,
 				DBBA6C1B2623ECDB0030541F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		50F8B349CC18C8513BB42CA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CafeNIBM10421394-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D15E8AFCD6E902C2CD33F7B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CafeNIBM10421394/Pods-CafeNIBM10421394-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CafeNIBM10421394/Pods-CafeNIBM10421394-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CafeNIBM10421394/Pods-CafeNIBM10421394-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DBBA6C0C2623ECDB0030541F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBBA6C182623ECDB0030541F /* ViewController.swift in Sources */,
 				DBBA6C142623ECDB0030541F /* AppDelegate.swift in Sources */,
+				DB05EB0226325E7C00BDAF17 /* FoodViewController.swift in Sources */,
+				DB2B4B53263441C700CEE1C1 /* ProfileViewController.swift in Sources */,
+				DBEED809262552E30025594D /* EntityModel.swift in Sources */,
+				DB380A4F262747F000D1C566 /* SessionManager.swift in Sources */,
+				DBF93AA42633D83C00915EC1 /* InputValidator.swift in Sources */,
 				DBBA6C162623ECDB0030541F /* SceneDelegate.swift in Sources */,
+				DB05EB062632819200BDAF17 /* FoodTableViewCell.swift in Sources */,
+				DB2B4B552634478700CEE1C1 /* LaunchViewController.swift in Sources */,
+				DB2B4B57263462C500CEE1C1 /* FoodItemViewController.swift in Sources */,
+				DBE6F3662625A77500315AE3 /* SigninViewController.swift in Sources */,
+				DBE6F3682625A82A00315AE3 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,16 +434,18 @@
 		};
 		DBBA6C252623ECE00030541F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AFA3592CB804D62DD5AF4CF /* Pods-CafeNIBM10421394.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CafeNIBM10421394/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chari.CafeNIBM10421394;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = cafe;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,16 +453,18 @@
 		};
 		DBBA6C262623ECE00030541F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8C237CB7B8631E8CAA5FBEF /* Pods-CafeNIBM10421394.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CafeNIBM10421394/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chari.CafeNIBM10421394;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = cafe;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

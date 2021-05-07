@@ -1,12 +1,6 @@
-//
-//  AppDelegate.swift
-//  CafeNIBM10421394
-//
-//  Created by char1 on 4/12/21.
-//  Copyright © 2021 char1. All rights reserved.
-//
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +9,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FirebaseApp.configure()
+        
         return true
     }
 
